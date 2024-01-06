@@ -86,8 +86,8 @@
     gap: 0px;
   }
   .inicio-conteudo {
-    padding-left: 47px;
-    padding-right: 47px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 @media (max-width: 750px) {
@@ -98,8 +98,11 @@
   .inicio-conteudo .botao {
     margin-bottom: 40px;
   }
+  .inicio-conteudo h1 {
+    margin-bottom: 12px;
+  }
 }
-@media (max-width: 281px) {
+@media (max-width: 380px) {
   .inicio-conteudo {
     padding-left: 10px;
     padding-right: 10px;
@@ -107,6 +110,7 @@
   .caixa-inicio {
     padding-left: 10px;
     padding-right: 10px;
+    gap: 8px;
   }
   .item-caixa-inicio img {
     border-radius: 8px;
