@@ -1,0 +1,85 @@
+.font-1-a {
+  font-family: "DM Serif Text";
+  font-weight: 400;
+  font-size: 4.25rem;
+  line-height: 110%;
+}
+.font-1-b {
+  font-family: "DM Serif Text";
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 110%;
+}
+.font-2-a {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 110%;
+}
+.font-2-b {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 10%;
+}
+.font-2-c {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 140%;
+}
+.font-2-d {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 100%;
+}
+
+@media (max-width: 750px) {
+  .font-1-a {
+    font-size: 2.25rem;
+  }
+  .font-1-b {
+    font-size: 2.25rem;
+  }
+}
+
+:root {
+  --base-1: #fffcf5;
+  --base-2: #fffaeb;
+  --base-3: #fff6e0;
+  --base-4: #fff2d8;
+  --verde-0: #184757;
+  --verde-1: #113946;
+  --verde-2: #092933;
+  --verde-3: #07222b;
+  --verde-4: #04181f;
+}
+
+.base-1 {
+  color: var(--base-1);
+}
+.base-2 {
+  color: var(--base-2);
+}
+.base-3 {
+  color: var(--base-3);
+}
+.base-4 {
+  color: var(--base-4);
+}
+.verde-0 {
+  color: var(--verde-0);
+}
+.verde-1 {
+  color: var(--verde-1);
+}
+.verde-2 {
+  color: var(--verde-2);
+}
+.verde-3 {
+  color: var(--verde-3);
+}
+.verde-4 {
+  color: var(--verde-4);
+}

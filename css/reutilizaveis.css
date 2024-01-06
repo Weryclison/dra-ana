@@ -1,0 +1,72 @@
+.container {
+  padding-left: 104px;
+  padding-right: 104px;
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.botao {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--verde-3);
+  background-color: var(--base-1);
+  padding: 10px 16px;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  box-shadow: 2px 3px 0px black;
+  border: 1px solid var(--verde-3);
+}
+
+.botao-2 {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--base-2);
+  background-color: var(--verde-3);
+  padding: 10px 16px;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  box-shadow: 2px 3px 0px var(--base-1);
+  border: 1px solid var(--base-2);
+}
+.botao:hover {
+  background-color: var(--verde-0);
+  color: var(--base-1);
+  box-shadow: 4px 5px 0px black;
+  transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+}
+.botao-2:hover {
+  background-color: var(--base-1);
+  color: var(--verde-4);
+  box-shadow: 4px 5px 0px var(--base-2);
+  border: 1px solid var(--verde-4);
+  transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+}
+@media (max-width: 750px) {
+  .container {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+  .logo-menu {
+    max-width: 40vw;
+  }
+}
+@media (max-width: 281px) {
+  .botao,
+  .botao-2 {
+    padding: 2px 4px;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logo-menu {
+    max-width: 50vw;
+  }
+}

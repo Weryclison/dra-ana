@@ -1,0 +1,118 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  margin-bottom: 80px;
+}
+.nav li {
+  display: inline-block;
+  margin-left: 60px;
+  padding: 20px 12px 20px 0px;
+}
+.nav li.botao {
+  margin-left: 60px;
+  padding: 10px 16px;
+}
+.nav li:first-child {
+  margin-left: 0px;
+}
+.nav li:last-child {
+  display: none;
+}
+.inicio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  position: relative;
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inicio-conteudo {
+  padding-left: 104px;
+}
+.inicio-conteudo h1 {
+  margin-bottom: 4px;
+}
+.inicio-conteudo p {
+  margin-bottom: 20px;
+}
+.inicio-conteudo .botao {
+  margin-bottom: 80px;
+}
+.caixa-inicio {
+  display: flex;
+  grid-column: 1/-1;
+  background-color: var(--verde-3);
+  padding-left: 104px;
+  gap: 40px;
+}
+.item-caixa-inicio {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-items: center;
+}
+.item-caixa-inicio img {
+  padding: 18px;
+  background-color: var(--base-1);
+  margin: 20px 0px;
+  align-self: center;
+  border-radius: 15px;
+}
+.item-caixa-inicio p {
+  margin-bottom: 20px;
+}
+.foto-inicio {
+  grid-column: 2;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  max-width: 42vw;
+}
+@media (max-width: 1100px) {
+  .foto-inicio {
+    display: none;
+  }
+  .inicio {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .caixa-inicio {
+    padding-left: 47px;
+    padding-right: 47px;
+    justify-content: space-around;
+    gap: 0px;
+  }
+  .inicio-conteudo {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+}
+@media (max-width: 750px) {
+  .nav {
+    padding-top: 20px;
+    margin-bottom: 40px;
+  }
+  .inicio-conteudo .botao {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 281px) {
+  .inicio-conteudo {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .caixa-inicio {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .item-caixa-inicio img {
+    border-radius: 8px;
+    padding: 8px;
+  }
+  .item-caixa-inicio p {
+    font-size: 0.6rem;
+  }
+}
