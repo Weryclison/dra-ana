@@ -37,10 +37,15 @@
   .caixa-opiniao p:first-child {
     padding: 30px 30px 20px 30px;
   }
+  .caixa-opiniao span {
+    padding-right: 12px;
+  }
+  .opiniao-identificador img:first-child {
+    margin-left: 30px;
+    max-width: 60px;
+  }
 }
-.opiniao-identificador img:first-child {
-  margin-left: 30px;
-}
+
 @media (max-width: 281px) {
   .caixa-opiniao p:first-child {
     padding: 30px 20px 20px 20px;
