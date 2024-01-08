@@ -9,6 +9,10 @@
 }
 .caixa-tratamento {
   text-align: center;
+  padding-bottom: 40px;
+}
+.caixa-tratamento:last-child {
+  padding-bottom: 0px;
 }
 .caixa-tratamento h4 {
   padding-bottom: 20px;
@@ -17,7 +21,7 @@
 @media (max-width: 820px) {
   .tratamentos {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 0px;
     margin-bottom: 60px;
   }
   .caixa-tratamento {
