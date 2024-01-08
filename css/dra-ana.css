@@ -1,0 +1,64 @@
+.dra-ana {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--verde-3);
+  margin-bottom: 80px;
+  position: relative;
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dra-ana h3 {
+  margin-top: 40px;
+  padding-left: 32px;
+  padding-right: 104px;
+}
+.dra-ana p {
+  margin-top: 24px;
+  padding-left: 32px;
+  padding-right: 104px;
+}
+.dra-ana .botao-2 {
+  margin-top: 20px;
+  margin-left: 32px;
+}
+@media (max-width: 1020px) {
+  .dra-ana {
+    grid-template-columns: 1fr;
+  }
+  .dra-ana img {
+    order: 2;
+  }
+  .dra-ana .botao-2 {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 750px) {
+  .dra-ana {
+    margin-bottom: 60px;
+  }
+
+  .dra-ana h3 {
+    margin-top: 40px;
+    padding-left: 47px;
+    padding-right: 10px;
+  }
+  .dra-ana p {
+    margin-top: 24px;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+  .dra-ana .botao-2 {
+    margin-top: 20px;
+    margin-left: 32px;
+  }
+  .dra-ana .botao-2 {
+    margin-left: 47px;
+  }
+}
+@media (max-width: 300px) {
+  .dra-ana h3 {
+    font-size: 1.5rem;
+  }
+}

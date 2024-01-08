@@ -19,6 +19,7 @@
   box-sizing: border-box;
   box-shadow: 2px 3px 0px black;
   border: 1px solid var(--verde-3);
+  cursor: pointer;
 }
 
 .botao-2 {
@@ -47,6 +48,14 @@
   box-shadow: 4px 5px 0px var(--base-2);
   border: 1px solid var(--verde-4);
   transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+}
+.titulo-central {
+  text-align: center;
+  grid-column: 1/-1;
+  margin-bottom: 60px;
+}
+.titulo-central h2 {
+  margin-bottom: 12px;
 }
 @media (max-width: 750px) {
   .container {
