@@ -18,7 +18,7 @@
 
       <div class="nav-links">
         <button data-menu="button" aria-expanded="false" aria-controls="menu"><img src="./svg/menu-icon.svg" alt="menu-icon"></button>
-        <ul data-menu="list" id="menu">
+        <ul data-menu="list" id="menu" class="menu">
           <li class="font-2-a verde-3"><a href="#tratamentos">Tratamentos</a></li>
           <li class="font-2-a verde-3"><a href="#sobre">Sobre</a></li>
           <li class="font-2-a verde-3"><a href="#diferenciais">Diferenciais</a></li>
@@ -50,7 +50,7 @@
       <img src="./img/foto-inicio.png" alt="mulher-com-cosmetico" class="foto-inicio">
     </div>
   </section>
-  <section class="tratamentos container">
+  <section class="tratamentos container" id="tratamentos">
     <div class="titulo-central">
       <h2 class="font-2-a verde-3">Tratamentos</h2>
       <h3 class="font-1-b verde-4">O que podemos fazer por você</h3>
@@ -71,7 +71,7 @@
       <p class="font-2-c verde-3">Utilização de procedimentos como peelings químicos e terapias.</p>
     </div>
   </section>
-  <section class="dra-ana">
+  <section class="dra-ana" id="sobre">
     <img src="./img/dra-ana.jpg" alt="dra-ana">
     <div>
       <h3 class="font-1-b base-1">Dra. Ana - Médica Dermatologista</h3>
@@ -79,7 +79,7 @@
       <a href="/" class="botao-2">Entrar em contato</a>
     </div>
   </section>
-  <section class="diferenciais container">
+  <section class="diferenciais container" id="diferenciais">
     <div class="titulo-central">
       <h2 class="font-2-a verde-3">Meus diferenciais</h2>
       <h3 class="font-1-b verde-4">No que me diferencio?</h3>
@@ -120,7 +120,39 @@
       </div>
     </div>
   </section>
+  <section class="opinioes container">
+    <div class="titulo-central">
+      <h2 class="font-2-a verde-3">Opiniões</h2>
+      <h3 class="font-1-b verde-4">O que meus clientes falam?</h3>
+    </div>
+    <div class="caixa-opiniao">
+      <p class="font-2-c base-2">“Estou extremamente satisfeito com os resultados do tratamento na Clínica Dermatológica Dra. Ana. A abordagem personalizada fez toda a diferença para a saúde e aparência da minha pele.”</p>
+      <div class="opiniao-identificador">
+        <img src="./img/maria.jpg" alt="maria">
+        <div> <span class="font-2-b base-2">Maria Capellini</span>
+          <div class="nota">
+            <span class="font-2-c base-3">Influenciadora</span>
+            <img src="./svg/estrelas.svg" alt="">
+          </div>
+        </div>
 
+      </div>
+    </div>
+    <div class="caixa-opiniao">
+      <p class="font-2-c base-2">“Encontrei na Clínica Dermatológica da Dra. Ana o tratamento eficaz que procurava. A equipe é atenciosa, os resultados são visíveis, e estou mais confiante com a saúde da minha pele.”</p>
+      <div class="opiniao-identificador">
+        <img src="./img/jussara.jpg" alt="jussara">
+        <div> <span class="font-2-b base-2">Jussara Gomes</span>
+          <div class="nota">
+            <span class="font-2-c base-3">Empreendedora</span>
+            <img src="./svg/estrelas.svg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
   <script type="module" src="script.js"></script>
 </body>
 
